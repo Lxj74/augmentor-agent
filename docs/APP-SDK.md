@@ -19,6 +19,15 @@ model execution remain separate qualification steps. Regression coverage in
 continued settings denial and the real native-message path with an isolated
 synthetic helper, without user configuration or provider credentials.
 
+Validation at `e8db4e2`: the canonical build and 17 focused rewrite, SDK policy,
+embedding and native-message checks passed. A compatible 0.2.11 managed overlay
+also passed the native-message regression. Live Linux embedding returned a
+rewrite through the selected provider and Undo restored the exact original
+draft; no chat prompt was sent. The source policy is shared with macOS, but an
+installed Mac was not exercised for this correction. Existing desktop windows,
+DSH, speech dependencies and model selections did not require a restart or
+configuration change; the embedding service adopted the newly staged release.
+
 The separate `augmentor-app-sdk` repository supplies the developer package.
 This repository owns the runtime contract `augmentor-app/1`, the maintained
 Browser interface, workspace permissions, memory binding and installation.
